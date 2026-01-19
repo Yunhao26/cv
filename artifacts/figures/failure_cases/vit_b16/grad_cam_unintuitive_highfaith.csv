@@ -1,0 +1,7 @@
+model,method,sample_idx,img_path,y_true,faithfulness_correlation,max_sensitivity,y_pred,central_mass
+vit_b16,grad_cam,251,data\chest_xray\test\PNEUMONIA\person65_virus_123.jpeg,1,0.2418166697025299,0.8784962892532349,1,0.1268884837627411
+vit_b16,grad_cam,29,data\chest_xray\test\NORMAL\NORMAL2-IM-0351-0001.jpeg,0,0.2411651015281677,5.824195384979248,0,0.2979319095611572
+vit_b16,grad_cam,20,data\chest_xray\test\NORMAL\NORMAL2-IM-0359-0001.jpeg,0,0.1943849027156829,0.4065622091293335,1,0.16036158800125122
+vit_b16,grad_cam,145,data\chest_xray\test\NORMAL\IM-0045-0001.jpeg,0,0.1671653538942337,6.041184902191162,0,0.23706404864788055
+vit_b16,grad_cam,63,data\chest_xray\test\PNEUMONIA\person18_virus_49.jpeg,1,0.1649321764707565,0.8834973573684692,1,0.18711572885513306
+vit_b16,grad_cam,125,data\chest_xray\test\NORMAL\NORMAL2-IM-0028-0001.jpeg,0,0.1508598178625106,0.5607420206069946,1,0.17643103003501892

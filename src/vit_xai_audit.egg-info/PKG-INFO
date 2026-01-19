@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: vit-xai-audit
+Version: 0.1.0
+Summary: Quantitative auditing of ViT explainability on Chest X-Ray Pneumonia dataset
+Requires-Python: >=3.10

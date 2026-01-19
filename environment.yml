@@ -1,0 +1,26 @@
+name: vit-xai-audit
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pillow
+  - tqdm
+  - pyyaml
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - pip:
+      - timm==1.0.12
+      - captum==0.7.0
+      - quantus==0.6.0
+      - kaggle==1.6.17
+

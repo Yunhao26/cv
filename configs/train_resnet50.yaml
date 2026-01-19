@@ -1,0 +1,14 @@
+seed: 42
+data_root: ./data
+image_size: 224
+batch_size: 64
+num_workers: 8
+epochs: 8
+lr: 0.0003
+weight_decay: 0.01
+amp: true
+tf32: true
+val_fraction: 0.1
+balanced_sampler: true
+use_class_weights: false
+

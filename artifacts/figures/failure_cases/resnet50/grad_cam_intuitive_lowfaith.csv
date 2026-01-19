@@ -1,0 +1,4 @@
+model,method,sample_idx,img_path,y_true,faithfulness_correlation,max_sensitivity,y_pred,central_mass
+resnet50,grad_cam,233,data\chest_xray\test\PNEUMONIA\person122_bacteria_583.jpeg,1,-0.2530315518379211,0.5303097367286682,1,0.7173286080360413
+resnet50,grad_cam,148,data\chest_xray\test\PNEUMONIA\person25_virus_59.jpeg,1,-0.0748806819319725,0.3414250612258911,1,0.7295636534690857
+resnet50,grad_cam,117,data\chest_xray\test\PNEUMONIA\person152_bacteria_721.jpeg,1,-0.063776358962059,0.6809471249580383,1,0.7018793821334839

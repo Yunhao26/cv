@@ -1,0 +1,2 @@
+model,method,sample_idx,img_path,y_true,faithfulness_correlation,max_sensitivity,y_pred,central_mass
+vit_b16,grad_cam,205,data\chest_xray\test\PNEUMONIA\person1634_virus_2830.jpeg,1,-0.2956909537315368,1.0,1,0.7184478640556335

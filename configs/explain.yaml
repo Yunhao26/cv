@@ -1,0 +1,10 @@
+seed: 42
+data_dir: ./data/chest_xray
+image_size: 224
+subset_size: 256
+methods:
+  - integrated_gradients
+  - grad_cam
+ig_steps: 64
+baseline: zeros
+

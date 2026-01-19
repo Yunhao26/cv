@@ -1,0 +1,11 @@
+model,method,sample_idx,img_path,y_true,faithfulness_correlation,max_sensitivity,y_pred,central_mass
+vit_b16,integrated_gradients,172,data\chest_xray\test\PNEUMONIA\person51_virus_105.jpeg,1,0.5117310285568237,0.5512157082557678,1,0.2895132899284363
+vit_b16,integrated_gradients,193,data\chest_xray\test\PNEUMONIA\person70_virus_130.jpeg,1,0.481413185596466,0.5135050415992737,1,0.2361321896314621
+vit_b16,integrated_gradients,54,data\chest_xray\test\PNEUMONIA\person31_virus_70.jpeg,1,0.4560363292694092,0.5256744027137756,1,0.2668595314025879
+vit_b16,integrated_gradients,221,data\chest_xray\test\PNEUMONIA\person66_virus_125.jpeg,1,0.4052490592002868,0.6185094118118286,1,0.2783760726451874
+vit_b16,integrated_gradients,38,data\chest_xray\test\PNEUMONIA\person158_bacteria_744.jpeg,1,0.3405728638172149,0.7344077825546265,1,0.2077442854642868
+vit_b16,integrated_gradients,177,data\chest_xray\test\PNEUMONIA\person1659_virus_2867.jpeg,1,0.3170961439609527,0.5046931505203247,1,0.24616995453834534
+vit_b16,integrated_gradients,89,data\chest_xray\test\PNEUMONIA\person1645_virus_2845.jpeg,1,0.2819589972496032,0.533312201499939,1,0.24046343564987183
+vit_b16,integrated_gradients,174,data\chest_xray\test\PNEUMONIA\person111_bacteria_535.jpeg,1,0.2799268364906311,0.5910507440567017,1,0.27445343136787415
+vit_b16,integrated_gradients,122,data\chest_xray\test\PNEUMONIA\person130_bacteria_626.jpeg,1,0.2583306431770324,0.5056979060173035,1,0.2591496407985687
+vit_b16,integrated_gradients,244,data\chest_xray\test\PNEUMONIA\person119_bacteria_565.jpeg,1,0.2576097548007965,0.7940994501113892,1,0.2662169933319092

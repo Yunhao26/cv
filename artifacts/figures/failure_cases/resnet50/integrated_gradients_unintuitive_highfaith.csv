@@ -1,0 +1,1 @@
+model,method,sample_idx,img_path,y_true,faithfulness_correlation,max_sensitivity,y_pred,central_mass

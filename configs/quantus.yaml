@@ -1,0 +1,14 @@
+seed: 42
+data_dir: ./data/chest_xray
+image_size: 224
+subset_size: 256
+
+faithfulness:
+  metric: FaithfulnessCorrelation
+  perturb_steps: 50
+
+robustness:
+  metric: MaxSensitivity
+  noise_sigma: 0.1
+  nr_samples: 10
+

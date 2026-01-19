@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+.vscode/
+.idea/
+
+.venv/
+
+data/
+# 训练与缓存（体积大，不建议推送）
+runs/
+
+# 默认不提交 artifacts（但允许提交报告所需的 metrics/figures）
+artifacts/*
+!artifacts/metrics/
+!artifacts/metrics/**
+!artifacts/figures/
+!artifacts/figures/**
+
+.env
+
